@@ -1,6 +1,5 @@
 package com.heritage.mkheritageback.model;
 
-import jakarta.persistence.Id;
 import lombok.*;
 
 @AllArgsConstructor
@@ -8,7 +7,6 @@ import lombok.*;
 @Getter
 @Setter
 public class HeritageSite {
-    @Id
     private String id;
     private String name;
     private String historic;
